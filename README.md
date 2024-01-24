@@ -68,6 +68,8 @@ The number provided does not exist
 ---
 
 ## Changelogs
+### Version 2.0.5 (Stable)
+-  Added nationality and return user nida
 ### Version 2.0.1
 - Solved failed to run the program
 ### Version 2.0.0
