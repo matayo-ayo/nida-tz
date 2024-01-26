@@ -24,8 +24,3 @@ const fetcher = async() => {
 ```
 ## Note
 - THIS IS NOT AN OFFICIAL NIDA PACKAGE
-- Use 'getNin' function to pass your nida value
-- getNin uses asynchronous function add await for better result
-- Be sure you saved your api link as API_URL to .env file
-
----
