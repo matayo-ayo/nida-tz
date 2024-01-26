@@ -1,7 +1,7 @@
 {
   "name": "nida-tz",
   "version": "2.0.5",
-  "description": "Unnoficial nida library. Just working fine",
+  "description": "Unnoficial nida library for ones with api link.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,11 +12,7 @@
   },
   "keywords": [
     "nida",
-    "nida-tz",
-    "nida",
-    "tanzania",
-    "tanzania",
-    "tz"
+    "tanzania"
   ],
   "author": "Matayo Ayo",
   "license": "MIT",
