@@ -1,7 +1,6 @@
 # nida-tz
 ## Note
-- This is not an official [NIDA](https//nida.go.tz) API and this package is under development
-- This package is for members with api url
+- This is not an official [NIDA](https//nida.go.tz) API
 
 Developed by [oxo]
 
