@@ -1,7 +1,7 @@
 {
   "name": "nida-tz",
   "version": "2.0.7",
-  "description": "Unnoficial nida library for ones with api link.",
+  "description": "Unnoficial nida library . Only for ones with api link.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/matayo-ayo/nida-tz#readme",
   "dependencies": {
     "axios": "^1.6.5",
-    "config": "^3.3.10"
+    "dotenv": "^16.4.1"
   }
 }

@@ -1,6 +1,6 @@
 # nida-tz
 ## Note
-- This is not an official [NIDA](https//nida.go.tz) API
+- This is not an official [NIDA](https//nida.go.tz) Library
 
 Developed by [oxo]
 
@@ -8,18 +8,27 @@ Developed by [oxo]
 ```bash
 npm install nida-tz
 ```
+
+For better result you need `axios and dotenv` dependencies installed
+
 ### usage
 ```bash
-const nidatz = require('nida-tz');
+const nidatz = require('nida-tz')
 
-const fetcher = async() => {
-    try{
-        const fetch = await nidatz.getNin(ninToFind);
-    } catch (err){
-        console.error(err)
+const userNin = 'XXXXXXXXXXXXXXXXXXXX';
+
+// use asynchronous function main controller
+const main = async() => {
+    const fetcher = async(nin) => {
+        return await nidatz.getNin(nin);
     }
+    
+    const result = await fetcher(userNin);
+    console.log(result);
 }
- const data = fetcher(userNin)
 ```
+
 ## Note
 - THIS IS NOT AN OFFICIAL NIDA PACKAGE
+- Save your API link as NIDA_TZ on your .env file
+- Put nin in string for better result
