@@ -1,15 +1,14 @@
-require('dotenv').config()
-const axios = require('axios')
-const getNin = async (nin, request) => {
-  try {
-    let response
-    const url = `${process.env.NIDA_TZ}${nin}`
-    if (request === 'post') { response = await axios.post(url) }
-    if (request === 'get') { response = await axios.get(url) }
-    const data = response.data
-    if (data.includes(nin)) { return data }
-    else { return "Incorrect ID" }
+const fetcher = require('./lib/nida-tz')
+
+module.exports = {
+  nidaData: async function (nin, method) {
+    try {
+      if (!(method === 'post' || method === 'get')) {
+        throw new Error("Invalid http method")
+      } else return await fetcher.getNin(nin, method)
+    }
+    catch (err) {
+      return err.message
+    }
   }
-  catch (err) { return "Failed to get number" }
 }
-module.exports = { getNin };
