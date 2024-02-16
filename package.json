@@ -1,6 +1,6 @@
 {
   "name": "nida-tz",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "For fetching nida data for Tanzania",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/matayo-ayo/nida-tz/issues"
   },
   "homepage": "https://github.com/matayo-ayo/nida-tz#readme",
-  "files":[
+  "files": [
     "index.js"
   ],
   "dependencies": {
