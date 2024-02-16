@@ -1,7 +1,7 @@
 {
   "name": "nida-tz",
   "version": "2.0.8",
-  "description": "Unnoficial nida library . Only for ones with api link.",
+  "description": "For fetching nida data for Tanzania",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,14 +12,18 @@
   },
   "keywords": [
     "nida",
-    "tanzania"
+    "tanzania",
+    "nida tanzania"
   ],
   "author": "Matayo Ayo",
-  "license": "MIT",
+  "license": "Custom",
   "bugs": {
     "url": "https://github.com/matayo-ayo/nida-tz/issues"
   },
   "homepage": "https://github.com/matayo-ayo/nida-tz#readme",
+  "files":[
+    "index.js"
+  ],
   "dependencies": {
     "axios": "^1.6.5",
     "dotenv": "^16.4.1"

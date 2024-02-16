@@ -1,8 +1,5 @@
 # nida-tz
-## Note
-- This is not an official [NIDA](https//nida.go.tz) Library
-
-Developed by [oxo]
+Fetch Tanzania nida data
 
 ### installation
 ```bash
@@ -22,7 +19,6 @@ const main = async() => {
     const fetcher = async(nin) => {
         return await nidatz.getNin(nin);
     }
-    
     const result = await fetcher(userNin);
     console.log(result);
 }
