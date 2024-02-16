@@ -16,7 +16,7 @@ const userNin = 'XXXXXXXXXXXXXXXXXXXX';
 
 // use asynchronous function main controller
 const main = async() => {
-    const fetcher = async(nin) => {
+    const fetcher = async(nin, request) => {
         return await nidatz.getNin(nin);
     }
     const result = await fetcher(userNin);
@@ -25,6 +25,5 @@ const main = async() => {
 ```
 
 ## Note
-- THIS IS NOT AN OFFICIAL NIDA PACKAGE
-- Save your API link as NIDA_TZ on your .env file
+- Save your link NIDA_TZ on your .env file
 - Put nin in string for better result
