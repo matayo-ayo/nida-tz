@@ -1,6 +1,6 @@
 {
   "name": "nida-tz",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "For fetching nida data for Tanzania",
   "main": "index.js",
   "scripts": {
