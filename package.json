@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/matayo-ayo/nida-tz#readme",
   "files": [
-    "index.js"
+    "index.js",
+    "lib/"
   ],
   "dependencies": {
     "axios": "^1.6.5",
