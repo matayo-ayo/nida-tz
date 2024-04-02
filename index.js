@@ -1,11 +1,9 @@
 const fetcher = require('./lib/nida-tz')
 
 module.exports = {
-  nidaData: async function (nin, method) {
+  nidaData: async function (nin) {
     try {
-      if (!(method === 'post' || method === 'get')) {
-        throw new Error("Invalid http method")
-      } else return await fetcher.getNin(nin, method)
+      return await fetcher.getNin(nin)
     }
     catch (err) {
       return err.message

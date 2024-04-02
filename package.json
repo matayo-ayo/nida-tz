@@ -11,16 +11,14 @@
     "url": "git+https://github.com/matayo-ayo/nida-tz.git"
   },
   "keywords": [
-    "nida",
-    "tanzania",
-    "nida tanzania"
+    "nida"
   ],
   "author": "Matayo Ayo",
   "license": "Custom",
   "bugs": {
-    "url": "https://github.com/matayo-ayo/nida-tz/issues"
+    "url": "https://github.com/matayo-ayo/nida-tz/"
   },
-  "homepage": "https://github.com/matayo-ayo/nida-tz#readme",
+  "homepage": "https://matayo-ayo.github.io/nida-tz",
   "files": [
     "index.js",
     "lib/"
