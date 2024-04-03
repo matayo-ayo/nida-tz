@@ -20,11 +20,10 @@ async functionName(parameters);
 
 # sample
 const nidatz = require('nida-tz');
-const method = "post"; #or "get
-const nin = "12345123451234512345"; # put nin in string
+const nin = "12345123451234512345";
 
 async function mainFunction() => {
-    const userData = await nidatz.nidaData(nin, method);
+    const userData = await nidatz.nidaData(nin);
 }
 ```
 
@@ -37,7 +36,8 @@ const app = expess()
 const nidatz = require('nida-tz')
 
 app.get('/route', async (req, res)=>{
-    const userData = await nidatz.nidaData('12345123451234512345', 'post')
+    const nida = '12345123451234512345'
+    const userData = await nidatz.nidaData(nida)
     res.send(userData)
 })
 
