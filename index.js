@@ -4,7 +4,7 @@ module.exports = {
   nidaData: async function (nin, method) {
     try {
       if (!(method === 'post' || method === 'get')) {
-        throw new Error("Invalid http method")
+        throw new Error("Method sio sahihi")
       } else return await fetcher.getNin(nin, method)
     }
     catch (err) {
