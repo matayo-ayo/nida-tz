@@ -1,6 +1,6 @@
 {
   "name": "nida-tz",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "description": "Karibu katika npm hii ya kupata taarifa za namba za nida kutoka tanzania",
   "main": "index.js",
   "scripts": {
